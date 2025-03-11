@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .title{
+            text-align: center;
+            background-color: white;        
+        }
+        .contain{
+            display: flex;
+        }
+        .contain .box{
+            width: 25%;
+            background-color: white;
+            transition: 1s;
+        }
+        .contain .box:hover{
+            transform: translateY(15px);
+            background: pink;
+        }
+        .contain .images{
+            width: 100%;
+            text-align: center;
+        }
+        .contain .detail{
+            text-align: center;
+            padding: 20px;
+        }
+        .contain .detail .brand{
+            color: #868686;
+            font-size: 15x;
+        }
+        .contain .detail .CARD{
+            padding: 10px 10px;
+            color: #868686;
+            border: 1px solid #333;
+            transition: 1s;
+        }
+        .contain .detail .iii{
+            color: #b12a2a;
+            font-size: 13px;
+        }
+        .contain .detail .cost{
+            color: #868686;
+            font-size: 13px;
+        }
+        .contain .detail .CARD:hover{
+            background: pink;
+            transform: translateY(5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>LATEST ARRIVAL</h1>
+    </div>
+    <div class="contain">
+        <div class="box">
+            <div class="images">
+                <img src="product_1.jpg" alt="clock">
+            </div>
+            <div class="detail">
+                <h1 class="brand">FOSSIL</h1><br>
+                <h2 class="iii">BEING ROSE GOLD STEEL MASK</h2>
+                <p class="cost">100$-500$</p>
+                <button class="CARD">ADD TO CARD</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="images">
+                <img src="product_2.jpg" alt="clock">
+            </div>
+            <div class="detail">
+                <h1 class="brand">FOSSIL</h1><br>
+                <h2 class="iii">BEING ROSE GOLD STEEL MASK</h2>
+                <p class="cost">100$-500$</p>
+                <button class="CARD">ADD TO CARD</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="images">
+                <img src="product_3.jpg" alt="clock">
+            </div>
+            <div class="detail">
+                <h1 class="brand">FOSSIL</h1><br>
+                <h2 class="iii">BEING ROSE GOLD STEEL MASK</h2>
+                <p class="cost">100$-500$</p>
+                <button class="CARD">ADD TO CARD</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="images">
+                <img src="product_4.jpg" alt="clock">
+            </div>
+            <div class="detail">
+                <h1 class="brand">FOSSIL</h1><br>
+                <h2 class="iii">BEING ROSE GOLD STEEL MASK</h2>
+                <p class="cost">100$-500$</p>
+                <button class="CARD">ADD TO CARD</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
